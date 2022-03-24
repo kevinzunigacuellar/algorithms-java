@@ -7,6 +7,17 @@ Space complexity: O(1)
 */
 
 public class Leetcode3 {
+
+  static int longestSubstring(String s) {
+    return 3;
+  }
+
   public static void main(String[] args) {
+    // input:
+    String s = "abcabcbb";
+    // output: 3
+    int ans = longestSubstring(s);
+    System.out.println(ans);
+
   }
 }
